@@ -12,21 +12,21 @@ public protocol ReuseCompatible {
     
     associatedtype CompatibleType
     
-    static var reu: ReuseBase<CompatibleType>.Type { get }
+    static var rus: ReuseBase<CompatibleType>.Type { get }
     
-    var reu: ReuseBase<CompatibleType> { get }
+    var rus: ReuseBase<CompatibleType> { get }
 }
 
 extension ReuseCompatible {
     
-    public static var reu: ReuseBase<Self>.Type {
+    public static var rus: ReuseBase<Self>.Type {
         get {
             return ReuseBase<Self>.self
         }
         
     }
     
-    public var reu: ReuseBase<Self> {
+    public var rus: ReuseBase<Self> {
         get {
             return ReuseBase(base: self)
         }
