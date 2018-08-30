@@ -61,10 +61,10 @@ extension ReuseBase where Base: UICollectionView {
 extension ReuseBase where Base: UICollectionView {
     
     public func dequeueCell<T: UICollectionViewCell>(for indexPath: IndexPath) -> T where T: Reusable {
-        guard let view = base.dequeueReusableCell(withReuseIdentifier: T.reusableIdentifier, for: indexPath) as? T else {
+        guard let cell = base.dequeueReusableCell(withReuseIdentifier: T.reusableIdentifier, for: indexPath) as? T else {
             fatalError("Register Cell: \(T.reusableIdentifier) first!")
         }
-        return view
+        return cell
     }
     
     public func dequeueView<T: UICollectionReusableView>(kind: ElementKind, for indexPath: IndexPath) -> T where T: Reusable {

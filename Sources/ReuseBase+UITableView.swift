@@ -23,9 +23,9 @@ extension ReuseBase where Base: UITableView {
 extension ReuseBase where Base: UITableView {
     
     public func dequeueCell<T: UITableViewCell>(for indexPath: IndexPath) -> T where T: Reusable {
-        guard let view = base.dequeueReusableCell(withIdentifier: T.reusableIdentifier, for: indexPath) as? T else {
+        guard let cell = base.dequeueReusableCell(withIdentifier: T.reusableIdentifier, for: indexPath) as? T else {
             fatalError("Register Cell: \(T.reusableIdentifier) first!")
         }
-        return view
+        return cell
     }
 }

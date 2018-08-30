@@ -37,6 +37,9 @@
 		A0381E2B2137B13200581056 /* ReuseCompatible+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReuseCompatible+UICollectionView.swift"; sourceTree = "<group>"; };
 		A0381E2D2137B26A00581056 /* ReuseBase+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReuseBase+UITableView.swift"; sourceTree = "<group>"; };
 		A0381E2F2137B29900581056 /* ReuseBase+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReuseBase+UICollectionView.swift"; sourceTree = "<group>"; };
+		A0381E312137BCA400581056 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		A0381E322137BCAF00581056 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A0381E342137BD1500581056 /* ReusableCell.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReusableCell.podspec; sourceTree = "<group>"; };
 		A0F84B992137A1AC00CA0A67 /* ReusableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReusableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F84B9C2137A1AC00CA0A67 /* ReusableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReusableCell.h; sourceTree = "<group>"; };
 		A0F84B9D2137A1AC00CA0A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +70,9 @@
 		A0F84B8F2137A1AC00CA0A67 = {
 			isa = PBXGroup;
 			children = (
+				A0381E312137BCA400581056 /* LICENSE */,
+				A0381E322137BCAF00581056 /* README.md */,
+				A0381E342137BD1500581056 /* ReusableCell.podspec */,
 				A0F84B9B2137A1AC00CA0A67 /* Sources */,
 				A0F84BA62137A1AC00CA0A67 /* Tests */,
 				A0F84B9A2137A1AC00CA0A67 /* Products */,
